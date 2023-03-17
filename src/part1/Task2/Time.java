@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Time {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Введите количество секунд");
         int s = sc.nextInt();
         int sec, m, min, h, hour, d, day, week;
