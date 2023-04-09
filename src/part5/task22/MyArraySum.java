@@ -80,11 +80,11 @@ public class MyArraySum {
         }
 
         if (indexOne > indexTwo) {
-            for (int i = indexTwo; i <= indexOne; i++) {
+            for (int i = indexTwo + 1; i <= indexOne - 1; i++) {
                 sum += myArray[i];
             }
         } else {
-            for (int i = indexOne; i <= indexTwo; i++) {
+            for (int i = indexOne + 1; i <= indexTwo - 1; i++) {
                 sum += myArray[i];
             }
         }

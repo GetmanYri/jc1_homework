@@ -1,5 +1,7 @@
 package part6.task25;
 
+
+
 public class Time {
 
     int sec;
