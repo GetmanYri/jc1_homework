@@ -13,15 +13,33 @@ public class HowMuchHomes {
         String no = "Дома не помещаются";
         System.out.println("Введите стороны а и b 1-го дома");
         for (int i = 0; i < homeA.length; i++) {
-            homeA[i] = sc.nextInt();
+            boolean luck = false;
+            while (!luck) {
+                homeA[i] = sc.nextInt();
+                if (homeA[i] > 0) {
+                    luck = true;
+                }
+            }
         }
         System.out.println("Введите стороны с и d 2-го дома");
         for (int i = 0; i < homeB.length; i++) {
-            homeB[i] = sc.nextInt();
+            boolean luck = false;
+            while (!luck) {
+                homeB[i] = sc.nextInt();
+                if (homeB[i] > 0) {
+                    luck = true;
+                }
+            }
         }
         System.out.println("Введите стороны участка e и f");
         for (int i = 0; i < place.length; i++) {
-            place[i] = sc.nextInt();
+            boolean luck = false;
+            while (!luck) {
+                place[i] = sc.nextInt();
+                if (place[i] > 0) {
+                    luck = true;
+                }
+            }
         }
         Arrays.sort(homeA);
         Arrays.sort(homeB);
