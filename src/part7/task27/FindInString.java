@@ -12,7 +12,6 @@ public class FindInString {
         StringBuilder string = new StringBuilder();
         string.append(Util.scannerString());
 
-        //Pattern p = Pattern.compile("[\\u0021-\\u002F+\\u003A-\\u003B]");
         Pattern p = Pattern.compile("\\p{Punct}");
         Matcher m = p.matcher(string);
         while (m.find()) {
