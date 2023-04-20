@@ -8,9 +8,9 @@ public abstract class Appliances {
     private int electricalPower;
 
 
-    abstract void powerOn();
+    //abstract void powerOn();
 
-    abstract void powerOff();
+    //abstract void powerOff();
 
     public String getBrandName() {
         return brandName;

@@ -1,18 +1,18 @@
 package part8.task33;
 
-public class Media extends Appliances {
+public class Media extends Appliances implements Power {
 
     public Media() {
         setApplianceType("Media");
     }
 
     @Override
-    void powerOn() {
+    public void powerOn() {
         setStatus("On");
     }
 
     @Override
-    void powerOff() {
+    public void powerOff() {
         setStatus("off");
     }
 }

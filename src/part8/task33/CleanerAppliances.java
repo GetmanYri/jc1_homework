@@ -1,17 +1,19 @@
 package part8.task33;
 
-public class CleanerAppliances extends Appliances {
-    public CleanerAppliances() {
+public class CleanerAppliances extends Appliances implements Power{
+
+
+        public CleanerAppliances() {
         setApplianceType("Cleaner");
     }
 
     @Override
-    void powerOn() {
+    public void powerOn() {
         setStatus("On");
     }
 
     @Override
-    void powerOff() {
+    public void powerOff() {
         setStatus("Off");
 
     }
