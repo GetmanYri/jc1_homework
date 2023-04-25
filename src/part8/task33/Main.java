@@ -7,7 +7,6 @@ public class Main {
         WashingMachine wash = new WashingMachine("Bosch", 2000);
         Grill grill = new Grill("Redmond", 3000);
         Tv tv = new Tv("Samsung", 500);
-        Media media = new Media();
 
         tv.powerOn();
         grill.powerOff();

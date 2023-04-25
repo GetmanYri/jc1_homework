@@ -1,6 +1,6 @@
 package part8.task33;
 
-public class Grill extends CookingAppliances{
+public class Grill extends CookingAppliances implements Power{
     private int temperatureRegulator;
     public Grill(String brandName,int electricalPower) {
         super();
@@ -10,4 +10,5 @@ public class Grill extends CookingAppliances{
     public void setTemperatureRegulator(int temperatureRegulator){
         this.temperatureRegulator=temperatureRegulator;
     }
+
 }
