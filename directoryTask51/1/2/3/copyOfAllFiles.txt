@@ -1,0 +1,6 @@
+[copyOfAllFiles.txt, listNameFiles.txt, text1.txt, text2.txt, text3.txt, text4.txt, text5.txt]
+64 88 87 98 41 28 50 60 58 2 
+53 97 42 83 93 96 93 46 5 5 
+57 83 4 97 18 7 84 95 96 55 
+6 38 4 37 30 3 99 46 44 15 
+24 41 7 46 34 27 1 94 41 52 
