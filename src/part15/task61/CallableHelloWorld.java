@@ -20,11 +20,11 @@ public class CallableHelloWorld implements Callable<Boolean> {
     }
 
     @Override
-    public synchronized Boolean call() throws Exception {
+    public Boolean call() throws Exception {
 
-        System.out.println(Thread.currentThread().getName() + " start in call ");
-        boolean res;
-        File dir = new File(nameOfDir);
+
+        //boolean res;
+        /*File dir = new File(nameOfDir);
 
         dir.mkdirs();
 
@@ -37,8 +37,8 @@ public class CallableHelloWorld implements Callable<Boolean> {
         } catch (IOException e) {
             e.printStackTrace();
             System.exit(1);
-        }
-        System.out.println(Thread.currentThread().getName() + " end in call ");
-        return res;
+        }*/
+        //return res;
+        return new WriteFileDate().writeFileDate(nameOfDir,nameOfFile,text);
     }
 }

@@ -11,8 +11,8 @@ public class Main {
         for (int i = 0; i < 10; i++) {
 
             executorService.submit(new CallableHelloWorld(System.getProperty("user.dir") + File.separator
-                    + "directoryTask61", i+".txt"));
+                    + "directoryTask61", i + ".txt"));
         }
-            executorService.shutdown();
-        }
+        executorService.shutdown();
     }
+}
